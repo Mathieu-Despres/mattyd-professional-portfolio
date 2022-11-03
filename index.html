@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>MattyD's Professional Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+
 <style>
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
@@ -23,7 +25,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="assets/images/man_smoke.jpg" style="width:100%">
+  <img src="assets/images/profilepicture.jfif" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -32,9 +34,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-user w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#work" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
+    <p>WORK</p>
   </a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
@@ -47,7 +49,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#work" class="w3-bar-item w3-button" style="width:25% !important">WORK</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
 </div>
@@ -57,17 +59,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Matt Despres.</h1>
-    <p>Web Developer & Graphic Designer</p>
-    <img src="/assets/images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+    <p>Web Developer, Graphic Designer, and Cybersecurity Specialist</p>
+    <img src="/assets/images/profilepicture.jfif" alt="profile picture of Mathieu Despres" class="w3-image" width="992" height="1108">
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">Mathieu Despres</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>My name is Mathieu Despres. I am a technophile who enjoys working with modern technology. This website was created for displaying my past and current work, along with my skills and experiences. 
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>My name is Mathieu Despres. I am a technophile who enjoys working with modern technology. This website was created for displaying my past and current work, along with my skills and experiences.
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
     <p class="w3-wide">Web Developper</p>
@@ -78,9 +78,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:85%"></div>
     </div>
-    <p class="w3-wide">Ethical Hacker</p>
+    <p class="w3-wide">Cybersecurity</p>
     <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
     </div><br>
     
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
@@ -102,10 +102,31 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       </div>
     </div>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume (PDF)
-    </button>
-    
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .btn {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+      }
+      
+      /* Darker background on mouse-over */
+      .btn:hover {
+        background-color: RoyalBlue;
+      }
+      </style>
+      </head>
+      <body>
+
+      <p>Download a copy of my resume:</p>
+      <button class="btn"><i class="fa fa-download"> <a href="assets/images/Resume.pdf" download="Resume.PDF">Download Resume (PDF)</a> </i></button>
+
+      </body>
+
     <!-- Grid for pricing tables -->
     <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
@@ -158,46 +179,80 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </div>
   
   <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
+  <div class="w3-padding-24 w3-content" id="work">
+    <h2 class="w3-text-light-grey">My Projects</h2>
     <hr style="width:200px" class="w3-opacity">
 
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="/assets/images/wedding.jpg" style="width:100%">
-        <img src="/assets/images/rocks.jpg" style="width:100%">
-        <img src="/assets/images/sailboat.jpg" style="width:100%">
-      </div>
+<!-- Photo Grid -->
 
-      <div class="w3-half">
-        <img src="/assets/images/underwater.jpg" style="width:100%">
-        <img src="/assets/images/chef.jpg" style="width:100%">
-        <img src="/assets/images/wedding.jpg" style="width:100%">
-        <img src="/assets/images/p6.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
+<div><a href="https://mathieu-despres.github.io/prework-study-guide/">
+  <img src="/assets/images/web-development-banner (main).jpg" width="100%" alt="HTML tutorial">
+</a></div>
+
+<br></br>
+
+  <div class="flex-container">
+  <div class="flex-item-left"><div><a href="https://google.ca">
+      <img src="/assets/images/web-development-banner.jpg" width="100%" alt="HTML tutorial">
+      </a></div></div>
+  <div class="flex-item-right"><div><a href="https://google.ca">
+      <img src="/assets/images/cybersecurity-banner.jpg" width="100%" alt="HTML tutorial">
+      </a></div></div>
   </div>
 
+  <div class="flex-container">
+  <div class="flex-item-left"><div><a href="https://google.ca">
+      <img src="/assets/images/web-design-banner.jpg" width="100%" alt="HTML tutorial">
+      </a></div></div>
+  <div class="flex-item-right"><div><a href="https://google.ca">
+      <img src="/assets/images/web-development-banner.jpg" width="100%" alt="HTML tutorial">
+      </a></div></div>
+  </div>
+
+  <div class="flex-container">
+  <div class="flex-item-left"><div><a href="https://google.ca">
+      <img src="/assets/images/cybersecurity-banner.jpg" width="100%" alt="HTML tutorial">
+      </a></div></div>
+  <div class="flex-item-right"><div><a href="https://google.ca">
+    <img src="/assets/images/web-design-banner.jpg" width="100%" alt="HTML tutorial">
+      </a></div></div>
+  </div>
+
+  <div class="flex-container">
+  <div class="flex-item-left"><div><a href="https://google.ca">
+      <img src="/assets/images/web-development-banner.jpg" width="100%" alt="HTML tutorial">
+      </a></div></div>
+  <div class="flex-item-right"><div><a href="https://google.ca">
+      <img src="/assets/images/cybersecurity-banner.jpg" width="100%" alt="HTML tutorial">
+      </a></div></div>
+</div>
+
+  <div class="flex-container">
+    <div class="flex-item-left"><div><a href="https://google.ca">
+        <img src="/assets/images/web-design-banner.jpg" width="100%" alt="HTML tutorial">
+        </a></div></div>
+    <div class="flex-item-right"><div><a href="https://google.ca">
+        <img src="/assets/images/web-development-banner.jpg" width="100%" alt="HTML tutorial">
+        </a></div></div>
+  </div>
+
+</div>
+
   <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+  <div class="w3-padding-24 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>New-Brunswick, Canada</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>+1 (506) 531-1485</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>mathieudespres@outlook.com</p>
     </div><br>
 
     <div class="quform-outer quform-theme-light-light">
       <form class="quform" action="assets/process.php" method="post" enctype="multipart/form-data">
 
           <div class="quform-inner">
-              <h3 class="quform-title">Contact form</h3>
-              <p class="quform-description">Please get in touch using the form below.</p>
 
               <div class="quform-elements">
 
@@ -211,8 +266,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                               <div class="quform-element quform-element-text">
                                   <div class="quform-spacer">
                                       <label for="name">Name <span class="quform-required">*</span></label>
-                                      <div class="quform-input">
-                                          <input id="name" type="text" name="name" />
+                                      <p><input class="w3-input w3-padding-14" input id="name" type="text" name="name" /></p>
                                       </div>
                                   </div>
                               </div>
@@ -222,8 +276,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                               <div class="quform-element quform-element-text">
                                   <div class="quform-spacer">
                                       <label for="email">Email address <span class="quform-required">*</span></label>
-                                      <div class="quform-input">
-                                          <input id="email" type="text" name="email" />
+                                      <p><input class="w3-input w3-padding-14" input id="email" type="text" name="email" /></p>
                                       </div>
                                   </div>
                               </div>
@@ -239,8 +292,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                   <div class="quform-element quform-element-textarea quform-huge">
                       <div class="quform-spacer">
                           <label for="message">Message <span class="quform-required">*</span></label>
-                          <div class="quform-input">
-                              <textarea id="message" name="message" class="quform-textarea"></textarea>
+                          <p><input class="w3-input w3-padding-14" textarea id="message" name="message" class="quform-textarea" /></p>
                           </div>
                       </div>
                   </div>
@@ -250,8 +302,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                   <div class="quform-element quform-element-captcha">
                       <div class="quform-spacer">
                           <label for="type_the_word">Type the word <span class="quform-required">*</span></label>
-                          <div class="quform-input">
-                              <input id="type_the_word" type="text" name="type_the_word" />
+                          <p><input class="w3-input w3-padding-14" input id="type_the_word" type="text" name="type_the_word" /></p>
                           </div>
                           <div class="quform-captcha">
                               <div class="quform-captcha-inner">
@@ -264,12 +315,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
                   <!-- Begin Submit button -->
                   <div class="quform-submit">
-                      <div class="quform-submit-inner">
-                          <button type="submit"><span><em>Send</em></span></button>
-                      </div>
-                      <div class="quform-loading-wrap"><span class="quform-loading"></span></div>
-                  </div>
-                  <!-- End Submit button -->
+                    <div class="quform-submit-inner">
+                        <button type="submit"><span><em>Send</em></span></button>
+                    </div>
+                    <div class="quform-loading-wrap"><span class="quform-loading"></span></div>
+                </div>
+                <!-- End Submit button -->
              </div>
          </div>
       </form>
@@ -286,7 +337,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <p class="w3-medium">&#169; <a href="https://github.com/Mathieu-Despres" target="_blank" class="w3-hover-text-green">Mathieu Despres</a></p>
   <!-- End footer -->
   </footer>
 
