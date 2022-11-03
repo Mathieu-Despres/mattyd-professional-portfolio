@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/base.css" />
+<link rel="stylesheet" type="text/css" href="quform/themes/light/light.css" />
 
 <style>
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
@@ -60,11 +62,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Matt Despres.</h1>
     <p>Web Developer, Graphic Designer, and Cybersecurity Specialist</p>
-    <img src="/assets/images/profilepicture.jfif" alt="profile picture of Mathieu Despres" class="w3-image" width="992" height="1108">
+    <br></br>
+    <img src="/assets/images/avatar.png" width="500" alt="profile picture of Mathieu Despres" class="w3-image" width="992" height="1108">
   </header>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+  <div class="w3-content w3-justify w3-text-grey w3-padding-24" id="about">
     <h2 class="w3-text-light-grey">Mathieu Despres</h2>
     <hr style="width:200px" class="w3-opacity">
     <p>My name is Mathieu Despres. I am a technophile who enjoys working with modern technology. This website was created for displaying my past and current work, along with my skills and experiences.
@@ -120,12 +123,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       }
       </style>
       </head>
-      <body>
+     
 
       <p>Download a copy of my resume:</p>
       <button class="btn"><i class="fa fa-download"> <a href="assets/images/Resume.pdf" download="Resume.PDF">Download Resume (PDF)</a> </i></button>
 
-      </body>
+ 
 
     <!-- Grid for pricing tables -->
     <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
@@ -249,27 +252,26 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>mathieudespres@outlook.com</p>
     </div><br>
 
-    <div class="quform-outer quform-theme-light-light">
-      <form class="quform" action="assets/process.php" method="post" enctype="multipart/form-data">
+    <div class="quform-inner">
+      <h3>Form</h3>
+      <h6>Please get in touch using the form below.</h6>
 
-          <div class="quform-inner">
-
-              <div class="quform-elements">
+    <div class="quform-elements">
 
                   <!-- Begin 2 column Group -->
                   <div class="quform-group-wrap quform-group-style-plain quform-group-alignment-left">
                       <div class="quform-group-elements">
 
                           <div class="quform-group-row quform-group-row-2cols">
+                      </div>
 
                               <!-- Begin Text input element -->
                               <div class="quform-element quform-element-text">
                                   <div class="quform-spacer">
                                       <label for="name">Name <span class="quform-required">*</span></label>
                                       <p><input class="w3-input w3-padding-14" input id="name" type="text" name="name" /></p>
-                                      </div>
-                                  </div>
-                              </div>
+                                
+                             
                               <!-- End Text input element -->
 
                               <!-- Begin Text input element -->
@@ -277,15 +279,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                                   <div class="quform-spacer">
                                       <label for="email">Email address <span class="quform-required">*</span></label>
                                       <p><input class="w3-input w3-padding-14" input id="email" type="text" name="email" /></p>
-                                      </div>
-                                  </div>
-                              </div>
+                                      
+                               
                               <!-- End Text input element -->
 
-                          </div>
-
-                      </div>
-                  </div>
+          
                   <!-- End 2 column Group -->
 
                   <!-- Begin Textarea element -->
@@ -293,9 +291,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                       <div class="quform-spacer">
                           <label for="message">Message <span class="quform-required">*</span></label>
                           <p><input class="w3-input w3-padding-14" textarea id="message" name="message" class="quform-textarea" /></p>
-                          </div>
-                      </div>
-                  </div>
+                      
+                    
                   <!-- End Textarea element -->
 
                   <!-- Begin Captcha element -->
@@ -303,15 +300,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                       <div class="quform-spacer">
                           <label for="type_the_word">Type the word <span class="quform-required">*</span></label>
                           <p><input class="w3-input w3-padding-14" input id="type_the_word" type="text" name="type_the_word" /></p>
-                          </div>
+                          
                           <div class="quform-captcha">
                               <div class="quform-captcha-inner">
                                   <img src="assets/images/captcha/courier-new-light.png" alt="" />
-                              </div>
-                          </div>
+                          
                       </div>
-                  </div>
                   <!-- End Captcha element -->
+                </div>
 
                   <!-- Begin Submit button -->
                   <div class="quform-submit">
@@ -322,7 +318,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
                 </div>
                 <!-- End Submit button -->
              </div>
-         </div>
+         
       </form>
   </div>
 
